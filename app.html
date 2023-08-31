@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareApp - Apoio em Vulnerabilidade Social</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>CareApp</h1>
+        <p>Uma plataforma de apoio em situações de vulnerabilidade social.</p>
+    </header>
+    <main>
+        <section id="contactForm">
+            <h2>Formulário de Contato</h2>
+            <form id="helpForm">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" required>
+
+                <label for="idade">Idade:</label>
+                <input type="text" id="idade" required>
+
+                <label for="iendereço">Endereço:</label>
+                <input type="text" id="endereço" required>
+
+                <label for="sexo">Sexo:</label>
+                <input type="text" id="sexo" required>
+                
+                <label for="contact">Telefone de Contato:</label>
+                <input type="text" id="contact" required>
+                
+                <label for="situation">Descreva sua Situação:</label>
+                <textarea id="situation" rows="4" required></textarea>
+                
+                <button id="submitButton" type="submit">Enviar Solicitação</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 CareApp</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
